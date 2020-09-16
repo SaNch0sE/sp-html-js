@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Бойко Олександр К17 1/9</title>
+  </head>
+  <body>
+    <h4 id="name">Калькулятор</h4>
+    <div class="input-group mb-3">
+      <input id="inp" placeholder="Введіть перше число" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    </div>
+    <div class="input-group mb-3">
+      <input id="inp1" placeholder="Введіть друге число" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    </div>
+    <p>Виберіть дію</p>
+    <button id="plus" type="button" class="btn btn-outline-primary">+</button>
+    <button id="minus" type="button" class="btn btn-outline-success">-</button>
+    <button id="multiply" type="button" class="btn btn-outline-warning">*</button>
+    <button id="divide" type="button" class="btn btn-outline-info">/</button>
+    <div class="alert alert-primary" role="alert">
+      Результат: <span id="result"></span>
+    </div>
+    <script src="./renderer.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

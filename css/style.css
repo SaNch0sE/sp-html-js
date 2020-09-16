@@ -1,0 +1,15 @@
+button {
+    margin-left: 22px;
+    margin-bottom: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+#name {
+    text-align: center;
+    margin: 0 0 0 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-right: 0;
+    padding-left: 0;
+}
